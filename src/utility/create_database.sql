@@ -55,4 +55,19 @@ INSERT INTO user_profile (name, email_addr, address, username, password)
 VALUE ('Maryam', 'mary@ymail.com', 'Khiabane Ordibehesht pelake 10', 'maryuser', 'maryuser');
 INSERT INTO user_profile (name, email_addr, address, username, password) 
 VALUE ('Sepehr', 'sepehr@ymail.com', 'Khiabane Farvardin pelake 3', 'sepehruser', 'sepehruser');
+INSERT INTO user_profile (name, email_addr, address, username, password) 
+VALUE ('Nila', 'nila@ymail.com', 'Khiabane Farvardin pelake 4', 'nilauser', 'nilauser');
+
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('Saat', 'saat.png', 120000, 'post', 1);
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('ketab', 'ketab.png', 30000, 'seller', 2);
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('Dast band', 'dastband.png', 30000, 'people', 1);
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('Couch', 'couch.png', 200000, 'customer', 2);
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('Shaal', 'shaal.png', 30000, 'people', 1);
+INSERT INTO item_profile (name, photo_name, price, shipping, seller_id)
+VALUE ('USB Cable', 'usbcable.png', 84000, 'customer', 2);
 
